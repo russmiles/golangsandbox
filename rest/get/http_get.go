@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	response, err := http.Get("http://golang.org/")
+	response, err := http.Get("http://russmiles.com/")
 	if err != nil {
 		fmt.Printf("%s", err)
 		os.Exit(1)
